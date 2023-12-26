@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #17171A;
+  padding: 40px 20px;
+}
+header h1 {
+  font-family: "Space Grotesk", sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+header h1 span {
+  color: #E07B67;
+}
+header form {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #202024;
+  border-radius: 10px;
+}
+header form button, header form input {
+  border: none;
+  background-color: #202024;
+  font-family: "Inter", sans-serif;
+}
+header form input {
+  width: 100%;
+  color: #AFABB6;
+}
+header form input:focus {
+  outline: none;
+}
+header form input::-moz-placeholder {
+  color: #AFABB6;
+  font-size: 16px;
+}
+header form input::placeholder {
+  color: #AFABB6;
+  font-size: 16px;
+}
+header form button i {
+  color: #E07B67;
+  font-size: 20px;
+}
+
+section {
+  background-color: #121214;
+  padding: 40px 20px;
+}
+section article {
+  width: 100%;
+  max-width: 800px;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #17171A;
+  border: 1px solid #252529;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+section article:last-child {
+  margin-bottom: 0;
+}
+section article div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+section article div p, section article div i {
+  color: #E07B67;
+}
+section article div p {
+  font-size: 14px;
+}
+section article h2 {
+  color: #FFFFFF;
+  font-size: 20px;
+  margin: 10px 0;
+}
+section article p {
+  color: #AFABB6;
+}
+
+body {
+  background-color: #121214;
+}/*# sourceMappingURL=styles.css.map */
