@@ -1,0 +1,55 @@
+@import 'variables';
+
+header {
+    background-color: $dark-20;
+    padding: 40px 20px;
+
+    h1 {
+        font-family: $space;
+        text-align: center;
+        color: $dark-60;
+        margin-bottom: 30px;
+        span {
+            color: $brand-color;
+        }
+    }
+
+    form {
+        padding: 10px 20px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: $dark-30;
+        border-radius: 10px;
+
+        button, input {
+            border: none;
+            background-color: $dark-30;
+            font-family: $inter;
+        }
+
+        input {
+            width: 100%;
+            color: $dark-50;
+            &:focus {
+                outline: none;
+            }
+        }
+
+        input::placeholder {
+            color: $dark-50;
+            font-size: 16px;
+        }
+
+        button {
+            i {
+                color: $brand-color;
+                font-size: 20px;
+            }
+        }
+    }
+}
